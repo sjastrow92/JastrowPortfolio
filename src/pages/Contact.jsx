@@ -10,7 +10,11 @@ export default function Contact() {
       <Form>
         <Form.Group>
           <Form.Label>Enter your full name:</Form.Label>
-          <Form.Control type="text" placeholder="Enter your full name" />
+          <Form.Control
+            type="text"
+            placeholder="Enter your full name"
+            required
+          />
         </Form.Group>
         <Form.Group>
           <Form.Label>Enter your email address:</Form.Label>
@@ -21,7 +25,7 @@ export default function Contact() {
         </Form.Group>
         <Form.Group>
           <Form.Label>Message:</Form.Label>
-          <Form.Control type="text" placeholder="Message" />
+          <Form.Control type="text" placeholder="Message" required />
         </Form.Group>
         <Button variant="primary" type="submit">
           Click here to submit form
