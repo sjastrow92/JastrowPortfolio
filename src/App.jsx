@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavTabs />
-      <main className="mx-3">
+      <main>
         <Outlet />
       </main>
       <Footer />
