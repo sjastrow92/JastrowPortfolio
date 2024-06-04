@@ -17,10 +17,10 @@ export default function Home() {
               <h4 className="mb-3">Subheading</h4>
               <a
                 className="btn btn-outline-light btn-lg"
-                href="#!"
+                href="/Contact"
                 role="button"
               >
-                Call to action
+                Hire Me
               </a>
             </div>
           </div>
