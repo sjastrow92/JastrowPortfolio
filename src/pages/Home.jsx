@@ -1,19 +1,31 @@
+import photo from "../assets/few.jpg";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+    <header style={{ paddingLeft: 0 }}>
+      <div
+        className="p-5 text-center bg-image"
+        style={{
+          backgroundImage: `url(${photo})`,
+          height: 400,
+        }}
+      >
+        <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
+          <div className="d-flex justify-content-center align-items-center h-100">
+            <div className="text-white">
+              <h1 className="mb-3">Heading</h1>
+              <h4 className="mb-3">Subheading</h4>
+              <a
+                className="btn btn-outline-light btn-lg"
+                href="#!"
+                role="button"
+              >
+                Call to action
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 }
