@@ -1,3 +1,5 @@
+import ResumePDF from "../assets/Resume.pdf";
+
 export default function Resume() {
   return (
     <div>
@@ -17,6 +19,9 @@ export default function Resume() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+      <a href={ResumePDF} download>
+        download{" "}
+      </a>
     </div>
   );
 }
