@@ -1,20 +1,32 @@
+import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div style={{ display: "block", width: 700, padding: 30 }}>
+      <h4>Contact Me</h4>
+      <Form>
+        <Form.Group>
+          <Form.Label>Enter your full name:</Form.Label>
+          <Form.Control type="text" placeholder="Enter your full name" />
+        </Form.Group>
+        <Form.Group>
+          <Form.Label>Enter your email address:</Form.Label>
+          <Form.Control
+            type="email"
+            placeholder="Enter your your email address"
+          />
+        </Form.Group>
+        <Form.Group>
+          <Form.Label>Message:</Form.Label>
+          <Form.Control type="text" placeholder="Message" />
+        </Form.Group>
+        <Button variant="primary" type="submit">
+          Click here to submit form
+        </Button>
+      </Form>
     </div>
   );
 }
