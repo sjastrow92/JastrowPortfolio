@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import NavTabs from "./NavTabs";
 import { Outlet } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main className="mx-3">
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 }
