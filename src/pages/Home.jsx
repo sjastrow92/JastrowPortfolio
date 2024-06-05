@@ -13,8 +13,10 @@ export default function Home() {
         <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
-              <h1 className="mb-3">Heading</h1>
-              <h4 className="mb-3">Subheading</h4>
+              <h1 className="mb-3">Stephen Jastrow here,</h1>
+              <h4 className="mb-3">It's nice to meet you. </h4>
+              <br></br>
+              <h5 className="mb-3">Full Stack React Developer | Let's build something. </h5>
               <a
                 className="btn btn-outline-light btn-lg"
                 href="/Contact"
