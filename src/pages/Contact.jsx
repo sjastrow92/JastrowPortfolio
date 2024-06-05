@@ -27,6 +27,7 @@ export default function Contact() {
           <Form.Label>Message:</Form.Label>
           <Form.Control type="text" placeholder="Message" required />
         </Form.Group>
+        <br></br>
         <Button variant="primary" type="submit">
           Click here to submit form
         </Button>
