@@ -23,7 +23,7 @@ export default function Portfolio() {
                 conceptualize their project.
               </Card.Text>
               <Button
-                variant={buttonVariant}
+              
                 href="https://frenzie24.github.io/jeans/"
               >
                 Deployed Application
