@@ -14,9 +14,9 @@ export default function Home() {
           <div className="d-flex justify-content-center align-items-center h-100">
             <div className="text-white">
               <h1 className="mb-3">Stephen Jastrow here,</h1>
-              <h4 className="mb-3">It's nice to meet you. </h4>
+              <h4 className="mb-3">It's nice to meet you. Let's Build Something </h4>
               <br></br>
-              <h5 className="mb-3">Full Stack React Developer | Let's build something. </h5>
+              <h5 className="mb-3">Full Stack React Developer | Philadelphia. </h5>
               <a
                 className="btn btn-outline-light btn-lg"
                 href="/Contact"
