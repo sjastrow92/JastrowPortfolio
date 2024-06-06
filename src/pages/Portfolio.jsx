@@ -17,8 +17,8 @@ export default function Portfolio() {
             <Card.Body>
               <Card.Title>JEANS</Card.Title>
               <Card.Text>
-                A front end application uses two server side APIs. This
-                application is for developer and designers alike who like may,
+                A front end application that uses two server side APIs. This
+                application is for developer and designers alike who may
                 need assitance finding color schemes and image themes to
                 conceptualize their project.
               </Card.Text>
