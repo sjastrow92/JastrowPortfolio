@@ -1,14 +1,19 @@
-import ResumePDF from "../assets/Resume.pdf";
-import ResumePic from "../assets/resume.png";
+import ResumePDF from "../assets/Stephen.Jastrow.Resume.pdf";
+import ResumePic from "../assets/jastrowresume.png";
 
 export default function Resume() {
   return (
-    <div>
+    <div style={{ minHeight: "100vh", padding: "20px" }}>
       <h1>Resume</h1>
-      <img src={ResumePic} alt="Resume" style={{ width: "50%", maxWidth: "800px", height: "80%", maxHeight: "800px", margin: "0 auto", display: "block" }}/>
       <a href={ResumePDF} download>
         Download
       </a>
+      <div style={{ overflowY: "auto", maxHeight: "calc(100vh - 200px)", textAlign: "center" }}>
+        <img src={ResumePic} alt="Resume" style={{ width: "100%", maxWidth: "800px", height: "auto", maxHeight: "100%" }}/>
+      </div>
+      <footer style={{ position: "fixed", bottom: "0", width: "100%", textAlign: "center", padding: "10px", background: "#f1f1f1" }}>
+        © 2024 Your Name. All rights reserved.
+      </footer>
     </div>
   );
 }
