@@ -1,4 +1,7 @@
 import jeansPic from "../../assets/jeans.png";
+import Bucket from "../../assets/Bucket.png";
+import sqlEmployeeTracker from "../../assets/sqlEmployeeTracker";
+import socialMediaApp from "../../assets/socialMediaApp";
 
 export const portfolioItems = [
   {
@@ -9,7 +12,7 @@ export const portfolioItems = [
     buttonText: "Github Repo",
   },
   {
-    img: "",
+    img: Bucket,
     title: "Bucket",
     text: "A web application built for the prupose of creating a working bucket list",
     href: "https://github.com/sjastrow92/Bucket",
@@ -23,24 +26,17 @@ export const portfolioItems = [
     buttonText: "Github Repo",
   },
   {
-    img: "",
-    title: "Steve's Thought Factory",
-    text: "A backend application using NoSQL to build an API for a social media web application where users can create, edit, and share thoughts. This uses expressJS for routing, a MongoDB database, and the Mongoose ODM",
-    href: "https://github.com/sjastrow92/Mod_18_Stevey_Thought_Factory",
-    buttonText: "Github Repo",
+    img: socialMediaApp,
+    title: "Back-End Social Media App",
+    text: "A backend application using NoSQL to build an API for a social media web application where users can create, read, update, and delete thoughts. This uses expressJS for routing, a MongoDB database, and the Mongoose ODM",
+    href: "https://www.youtube.com/watch?v=tKkNucbbZmw",
+    buttonText: "Youtube Walkthrough Video",
   },
   {
-    img: "",
-    title: "Task Board",
-    text: "A web application that allows the user to create a working task board to keep track of tasks across 3 working stages",
-    href: "https://github.com/sjastrow92/taskBoard",
-    buttonText: "Github Repo",
-  },
-  {
-    img: "",
-    title: "Steve's Blog",
-    text: "A working blog by yours truly",
-    href: "https://github.com/sjastrow92/myFirstBlog",
-    buttonText: "Github Repo",
+    img: sqlEmployeeTracker,
+    title: "Employee Tracker ",
+    text: "Using PostgreSQL with full CRUD, the user can create, read, update, and delete job roles, salaries, and managers in an employee database",
+    href: "https://www.youtube.com/watch?v=BO5sAI2Kk5U&t=1s",
+    buttonText: "Youtube Walkthrough Video",
   },
 ];
