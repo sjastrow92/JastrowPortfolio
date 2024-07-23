@@ -1,5 +1,5 @@
 import ResumePDF from "../assets/Stephen.Jastrow.Resume.pdf";
-import ResumePic from "../assets/jastrowresume.png";
+import ResumePic from "../assets/resumeScreenshot.png";
 
 export default function Resume() {
   return (
