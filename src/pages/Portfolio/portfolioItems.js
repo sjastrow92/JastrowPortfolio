@@ -1,7 +1,7 @@
 import jeansPic from "../../assets/jeans.png";
 import Bucket from "../../assets/Bucket.png";
-import sqlEmployeeTracker from "../../assets/sqlEmployeeTracker";
-import socialMediaApp from "../../assets/socialMediaApp";
+import sqlEmployeeTracker from "../../assets/sqlEmployeeTracker.png"
+import socialMediaApp from "../../assets/socialMediaApp.png";
 
 export const portfolioItems = [
   {
@@ -14,7 +14,7 @@ export const portfolioItems = [
   {
     img: Bucket,
     title: "Bucket",
-    text: "A web application built for the prupose of creating a working bucket list",
+    text: "A web application built for the purpose of creating a working bucket list",
     href: "https://github.com/sjastrow92/Bucket",
     buttonText: "Github Repo",
   },
