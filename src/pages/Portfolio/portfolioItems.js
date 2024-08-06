@@ -2,14 +2,15 @@ import jeansPic from "../../assets/jeans.png";
 import Bucket from "../../assets/Bucket.png";
 import sqlEmployeeTracker from "../../assets/sqlEmployeeTracker.png"
 import socialMediaApp from "../../assets/socialMediaApp.png";
+import root2roast from "../../assets/root2roast.png";
 
 export const portfolioItems = [
   {
     img: jeansPic,
     title: "Jeans",
     text: "A web application that fetches color palette and image search APIs to allow the user to obtain easy to use themes for any type of creative projects.",
-    href: "https://github.com/sjastrow92/Jeans",
-    buttonText: "Github Repo",
+    href: "https://main--projectjeans.netlify.app/",
+    buttonText: "Deployed App",
   },
   {
     img: Bucket,
@@ -19,11 +20,11 @@ export const portfolioItems = [
     buttonText: "Github Repo",
   },
   {
-    img: "",
+    img: root2roast,
     title: "Root2Roast",
     text: "A social media page for the homegrower who loves to cook! Search edible plants to grow, search a recipe for it, then discuss with other users!",
-    href: "https://github.com/sjastrow92/Root2Roast",
-    buttonText: "Github Repo",
+    href: "https://root2roast.onrender.com/",
+    buttonText: "Deployed App",
   },
   {
     img: socialMediaApp,
