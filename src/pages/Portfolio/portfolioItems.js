@@ -17,7 +17,7 @@ export const portfolioItems = [
     title: "Bucket",
     text: "A web application built for the purpose of creating a working bucket list",
     href: "https://bucket-8eis.onrender.com/",
-    buttonText: "Github Repo",
+    buttonText: "Deployed App",
   },
   {
     img: root2roast,
