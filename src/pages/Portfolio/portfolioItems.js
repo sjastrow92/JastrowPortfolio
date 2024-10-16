@@ -1,6 +1,6 @@
 import jeansPic from "../../assets/jeans.png";
 import Bucket from "../../assets/Bucket.png";
-import sqlEmployeeTracker from "../../assets/sqlEmployeeTracker.png"
+import sqlEmployeeTracker from "../../assets/sqlEmployeeTracker.png";
 import socialMediaApp from "../../assets/socialMediaApp.png";
 import root2roast from "../../assets/root2roast.png";
 
@@ -16,7 +16,7 @@ export const portfolioItems = [
     img: Bucket,
     title: "Bucket",
     text: "A web application built for the purpose of creating a working bucket list",
-    href: "https://github.com/sjastrow92/Bucket",
+    href: "https://bucket-8eis.onrender.com/",
     buttonText: "Github Repo",
   },
   {
